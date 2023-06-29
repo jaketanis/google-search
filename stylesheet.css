@@ -9,13 +9,13 @@ h1 {
     color:whitesmoke;
     text-align: center;
     font-size: 74pt;
-    padding: 1px;
+    padding: 10px;
     position: static;
 }
 
 .sub-h1 {
     color:darkblue;
-    text-align: right;
+    text-align:center;
     font-size: 24pt;
     padding: 1px;
     position: static;
@@ -23,6 +23,7 @@ h1 {
 
 form {
     text-align: center;
+    padding-top: 1px;
 }
 
 input[type=text] {
