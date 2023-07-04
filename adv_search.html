@@ -7,37 +7,47 @@
     <body>
         <div class="topnav">
             <!--Link to Google Search (home)-->
-            <p><a href="C:\Users\jakkt\google search\index.html">Google Search</a></p>
+            <p><a href="C:\Users\jakkt\google search\index.html">Google</a></p>
         </div>
         <div>
-            <h1>Google</h1>
-            </div>   
-        <form action="https://www.google.com/search" class="advform">
-            <p>Find pages with...</p> 
+            <h1 class="advh1">Google</h1>
+            <br>
 
-            <!--all these words(vert/left)-->
-            <label for="atw">all these words:</label>
-            <input type="text" id="atw" name="as_q"><br>
-
-            <!--this exact word or phrase(vert/left)-->
-            <label for="ewop">this exact word or phrase:</label>
-            <input type="text" id="ewop" name="as_epq"><br>
-
-            <!--any of these words(vert/left)-->
-            <label for="aw">any of these words:</label>
-            <input type="text" id="aw" name="as_oq"><br>
-            
-            <!--none of these words(vert/left)-->
-            <label for="nw">none of these words:</label>
-            <input type="text" id="nw" name="as_eq"><br>
-
-            <!--search button-->
             <div>
-                <input type="submit" value="Advanced Search" class="advbutton">
+                <form action="https://www.google.com/search" class="advform">
+
+                    <div>
+                        <div>
+                            <p>Find pages with...</p>
+                        </div>
+                        <div>
+                            <!--all these words(vert/left)-->
+                            <div><label class="advlabel" for="atw">all these words:</label></div>
+                            <div><input type="text" id="atw" name="as_q" class="advtext"></div>
+                        </div>
+                        <div>
+                        <!--this exact word or phrase(vert/left)-->
+                            <div><label class="advlabel" for="ewop">this exact word or phrase:</label></div>
+                            <div><input type="text" id="ewop" name="as_epq" class="advtext"></div>
+                        </div>
+                        <div>
+                        <!--any of these words(vert/left)-->
+                            <div><label class="advlabel" for="aw">any of these words:</label></div>
+                            <div><input type="text" id="aw" name="as_oq" class="advtext"><div>
+                        </div>
+                        <div>
+                        <!--none of these words(vert/left)-->
+                            <div><label class="advlabel"  for="nw">none of these words:</label></div>
+                            <div><input type="text" id="nw" name="as_eq" class="advtext"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Advanced Search" class="advbutton">
+                    </div>
+                    <!--Link to Search page(upper right)-->
+                </form>
             </div>
-            <!--Link to Search page(upper right)-->
-        </form>
-        <!--Link to regular search page-->
-        <a href="C:\Users\jakkt\project1\index.html">Google Search</a>
+        </div>
     </body>
 </html>
