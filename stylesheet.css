@@ -33,10 +33,12 @@ form {
 }
 .advlabel {
     float: left;
-    display: inline-block;
+    display: table-cell;
+    vertical-align: middle;
+    min-width: 200px;
+    min-height: 41px;
 }
 .advform {
-    float: left;
     text-align: left;
     display: inline-block;
 }
@@ -51,17 +53,25 @@ input[type=text] {
     border-color: whitesmoke;
     color: whitesmoke
 }
-
+.advclear {
+    clear: both;
+    width: 100%;
+}
 .regtext {
     border-radius: 60px;
 }
+.regtextwidth {
+    width: 40px;
+}
+.advtextwidth {
+    width: 100%;
+}
 .advtext {
-    display: inline-block;
-    width: 50%;
-    margin: 10px;
-    align-items: center;
+    float: left;
+    min-width: 500px;
     vertical-align: middle;
 }
+
 input[type=submit] {
     padding: 5px;
 }
