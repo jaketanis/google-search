@@ -46,7 +46,6 @@ form {
 
 input[type=text] {
     background-color: #21231F;
-    width: 40%;
     padding: 8px;
     outline: none;
     border-width: 1px;
@@ -59,10 +58,9 @@ input[type=text] {
 }
 .regtext {
     border-radius: 60px;
+    width: 40%;
 }
-.regtextwidth {
-    width: 40px;
-}
+
 .advtextwidth {
     width: 100%;
 }
