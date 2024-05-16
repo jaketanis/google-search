@@ -1,10 +1,10 @@
+/*stylesheet for cs50 project 0 -- google search*/
+
 body {
     background-color: #21231F;
     font-family: sans-serif;
     position: relative;
 }
-
-
 
 h1 {
     color:whitesmoke;
@@ -22,15 +22,18 @@ h1 {
     padding: 1px;
     margin: auto;
 }
+
 .advh1 {
     font-size: 30pt;
     text-align: left;
 }
+
 form {
     text-align: center;
     padding-top: 1px;
     color: whitesmoke;
 }
+
 .advlabel {
     float: left;
     display: table-cell;
@@ -38,11 +41,11 @@ form {
     min-width: 200px;
     min-height: 41px;
 }
+
 .advform {
     text-align: left;
     display: inline-block;
 }
-
 
 input[type=text] {
     background-color: #21231F;
@@ -52,10 +55,12 @@ input[type=text] {
     border-color: whitesmoke;
     color: whitesmoke
 }
+
 .advclear {
     clear: both;
     width: 100%;
 }
+
 .regtext {
     border-radius: 60px;
     width: 40%;
@@ -64,6 +69,7 @@ input[type=text] {
 .advtextwidth {
     width: 100%;
 }
+
 .advtext {
     float: left;
     min-width: 500px;
@@ -73,7 +79,6 @@ input[type=text] {
 input[type=submit] {
     padding: 5px;
 }
-
 
 .buttons {
     padding: 5px;
@@ -99,11 +104,10 @@ a {
     right: 8px;
 }
 
-
-
 .topnav {
     overflow: hidden;
 }
+
 .topnav a {
     float: right;
   display: block;
